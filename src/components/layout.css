@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  color: #6878ff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Anton", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 20px;
+}
+
+.hero-title {
+  font-size: 4em;
+  max-width: 470px;
+  margin-top: 1em;
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0px 20px 0 rgba(104, 120, 255, 1);
+}
+
+.hero-title strong {
+  color: #6878ff;
+}
+
+section {
+  min-height: 500px;
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 750px) {
+  .content {
+    flex-direction: row;
+    padding: 4em 0;
+  }
+}
+
+.section--dark {
+  background-color: #383b53;
+  color: #fff;
+}
+
+.section--dark p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.section--color {
+  background-color: #6878ff;
+  color: #fff;
+}
+
+.section--color ul {
+  width: 100%;
+}
+
+.section--color ul h1 {
+  border-bottom: 6px solid #fff;
+  padding-bottom: 20px;
+}
+
+.section--color ul li {
+  margin-bottom: 4em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+}
+
+@media screen and (min-width: 750px) {
+  .section--color ul li {
+    flex-direction: row;
+  }
+}
+
+.section--color ul li p {
+  max-width: 500px;
+}
+
+.section--color ul li img {
+  max-width: 250px;
+}
+
+.section--color a {
+  color: #303c9c;
+}
+
+.f-1 {
+  flex: 1;
+}
+
+header {
+  border-bottom: 1px solid #6878ff;
+}
+
+.text-cont {
+  padding: 2em;
+  flex: 1;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.main-nav {
+  text-transform: uppercase;
+}
+
+.main-nav li {
+  margin: 0 1em;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #383b53;
+}
+
+.main-nav a:hover {
+  color: #6878ff;
+}
+
+.content-img--full {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 750px) {
+  .content-img--full {
+    margin-right: 2em;
+  }
+}
+
+.product-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4em;
+  flex-direction: column;
+}
+
+.content--shirt {
+  margin-top: 1em;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 750px) {
+  .product-list li {
+    flex-direction: row;
+  }
+  .content--shirt {
+    max-width: 100%;
+    margin-top: 0;
+  }
+}
+
+.product-list li h2 {
+  font-size: 2em;
+}
+
+.product-list li h3 {
+  color: #6878ff;
+  margin-bottom: 0.5em;
+  margin-top: 0.1em;
+  font-size: 1.5em;
+}
+
+.btn {
+  background-color: #6878ff;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 12px 10px 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn--lte {
+  background-color: #fff;
+  color: #6878ff;
+}
+
+footer {
+  background-color: #383b53;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer--credits {
+  display: flex;
+}
+
+.footer--credits li {
+  margin: 0 5px;
+}
+
+.nav--social {
+  display: flex;
+}
+
+.nav--social li {
+  margin-right: 20px;
+}
+
+.nav--social li img {
+  max-width: 20px;
+}
+
+.link-email {
+  max-width: 20px;
+}
+
+.link-container a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.section--hero {
+  background: transparent url("../images/banner-image.png") no-repeat 370px -10px;
+  background-size: 1400px 600px;
+  background-attachment: fixed;
+}
+
+/* .hero-img--container {
+  position: relative;
+  max-width: 100px;
+}
+
+.hero-img {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+} */
+
+article img {
+  max-width: 500px;
+  border-radius: 10px;
+  margin: 10px 30px;
+}
+
+article {
+  clear: both;
+}
+
+.img-small {
+  max-width: 300px;
+}
+
+article p {
+  font-size: 1.2em;
+}
+
+.push-left {
+  float: left;
+  margin-left: 0px;
+  clear: right;
+}
+
+.push-right {
+  float: right;
+  margin-right: 0px;
+  clear: left;
+}
