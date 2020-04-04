@@ -1,11 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `SmashCovid 19`,
+    description: `Changing the economic impact of the COVID 19 Pandemic, one shirt at a time.`,
+    author: `Design For Hope Inc.`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-scroll-reveal`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-162689039-1",
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -24,7 +32,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

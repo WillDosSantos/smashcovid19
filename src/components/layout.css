@@ -16,6 +16,7 @@ h3 {
 
 h1 {
   font-size: 3em;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -31,18 +32,36 @@ h4 {
   font-size: 20px;
 }
 
+hr {
+  margin-bottom: 1em;
+}
+
 .hero-title {
   font-size: 4em;
-  max-width: 470px;
-  margin-top: 1em;
+  max-width: 500px;
   text-transform: uppercase;
-  background-color: #fff;
-  padding: 30px;
-  box-shadow: 0px 20px 0 rgba(104, 120, 255, 1);
+  box-shadow: 0px 10px 0 rgba(104, 120, 255, 1);
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+.hero-tag {
+  margin-top: 2em;
+  font-size: 1.2em;
+  max-width: 500px;
+}
+
+a.btn {
+  cursor: pointer;
 }
 
 .hero-title strong {
   color: #6878ff;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 500px;
 }
 
 section {
@@ -56,6 +75,22 @@ section {
   align-items: center;
   padding: 2em;
   flex-direction: column;
+}
+
+.d-f {
+  display: flex;
+}
+
+section .content--center {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.content--center p {
+  padding: 1em;
+  max-width: 600px;
 }
 
 @media screen and (min-width: 750px) {
@@ -110,7 +145,12 @@ section {
 }
 
 .section--color a {
-  color: #303c9c;
+  color: #bdc4ff;
+  font-weight: bold;
+}
+
+.section--color .btn {
+  color: #6878ff;
 }
 
 .f-1 {
@@ -150,6 +190,15 @@ p {
   color: #6878ff;
 }
 
+.img-link-container {
+  max-width: 500px;
+}
+
+.img-link-container img {
+  width: 100%;
+  max-width: 100%;
+}
+
 .content-img--full {
   max-width: 350px;
   width: 100%;
@@ -178,6 +227,7 @@ p {
   .product-list li {
     flex-direction: row;
   }
+
   .content--shirt {
     max-width: 100%;
     margin-top: 0;
@@ -195,19 +245,34 @@ p {
   font-size: 1.5em;
 }
 
+.mt-1 {
+  margin-top: 1em;
+}
+
 .btn {
   background-color: #6878ff;
   color: #fff;
   text-decoration: none;
-  padding: 7px 12px 10px 12px;
+  padding: 17px 21px 17px 21px;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: normal;
   font-size: 16px;
+  display: inline-block;
+  transition: all linear 0.1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #4a59d3;
 }
 
 .btn--lte {
   background-color: #fff;
   color: #6878ff;
+}
+
+.btn--lte:hover {
+  background-color: #dadeff;
 }
 
 footer {
@@ -250,12 +315,6 @@ footer {
   text-decoration: none;
 }
 
-.section--hero {
-  background: transparent url("../images/banner-image.png") no-repeat 370px -10px;
-  background-size: 1400px 600px;
-  background-attachment: fixed;
-}
-
 /* .hero-img--container {
   position: relative;
   max-width: 100px;
@@ -296,4 +355,23 @@ article p {
   float: right;
   margin-right: 0px;
   clear: left;
+}
+
+@media screen and (max-width: 750px) {
+  .push-left {
+    float: none;
+  }
+  .push-right {
+    float: none;
+  }
+  article img {
+    width: 100%;
+    max-width: 100%;
+    padding: 0px;
+    margin: 1em 0;
+  }
+  .img-small {
+    width: 100%;
+    max-width: 100%;
+  }
 }

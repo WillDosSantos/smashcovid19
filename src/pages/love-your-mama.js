@@ -28,7 +28,7 @@ const ThirdPage = () => (
           <hr/>
           <img className="push-left" src={mama5} alt="mama kats booth" />
           <p>If you've ever been to North County San Diego, and are craving breakfast on an early morning, chances are you have heard of this little gem of an establishment in San Marcos California called Mama Kats.</p>
-          <p>Mama Kats Restaurant and Pie shop is a family run business and as been around since 1993, serving North County with it's delicious food and warm atmosphere. Owner Michael Herrera and his wife Kristen work together with their dedicated employees to make sure that people have an enjoyable meal in warm and comforting setting.</p>
+          <p>Mama Kats Restaurant and Pie shop is a family run business and as been around since 2008, serving North County with it's delicious food and warm atmosphere. Owner Michael Herrera and his wife Kristen work together with their dedicated employees to make sure that people have an enjoyable meal in warm and comforting setting.</p>
           <img className="push-right img-small" src={mama3} alt="mama kats booth" />
           <p>With the recent events of the COVID-19 Pandemic, and the policies that have been set by the federal and state governments, the Mama Kats crew has been forced to adapt to the situation. They are currently working with a skeleton crew and doing online and to go orders. So if you are in the mood for some good food during your lock down, get an order from these guys. Personal opinion, you can't go wrong with Southern Comfort.</p>
           <p>For more information on Mama Kats, you can visit <a href="http://www.mamakats.com/">their website</a> or follow them on <a href="https://www.instagram.com/mamakatspieshop/">Instagram</a>, or <a href="https://www.facebook.com/mamakatsrestaurant?ref=hl">Facebook</a>.</p>
@@ -50,6 +50,7 @@ const ThirdPage = () => (
           <p>Be a part of something special today. Love your Mama and Save the Pies.</p>
          <span><strong>Designer:</strong> William dos Santos</span>
         </article>
+        <a class="btn mt-1" href="https://smashcovid19.threadless.com/designs/love-your-mama">Buy Love Your Mama...</a>
       </div>
     </div>
   </Layout>

@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import facebook from "../images/social-facebook.svg"
 import twitter from "../images/social-twitter.svg"
@@ -51,6 +52,7 @@ const Layout = ({ children }) => {
                   {` `}
                   <a href="https://www.gatsbyjs.org">Gatsby</a>
                 </li>
+                <li><Link to="/terms/">Terms and Conditions</Link></li>
               </ul>
               <ul className="nav--social">
                 <li>
@@ -59,12 +61,12 @@ const Layout = ({ children }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.instagram.com/smashcovid/">
                     <img src={instagram} alt="instagram icon" />
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.youtube.com/channel/UCGrLsdQhlINi_Vo5JraCOcA?disable_polymer=true">
                     <img src={youtube} alt="youtube icon" />
                   </a>
                 </li>

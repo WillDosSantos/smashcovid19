@@ -25,7 +25,9 @@ const Header = ({ siteTitle }) => (
         alignItems: `center`,
       }}
     >  
-      <img src={Logo} alt="Smash Covid Logo" />
+      <Link to="/">
+        <img src={Logo} alt="Smash Covid Logo" />
+      </Link>
       <ul
         className="main-nav"
         style={{
