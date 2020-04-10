@@ -51,7 +51,7 @@ const IndexPage = () => (
           <li>
             <div data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900">
               <h4>Step 1</h4>
-              <p>Each week a brand new custom shirt will be designed for a small business that has been  impacted by the COVID-19 pandemic.</p>
+              <p>Each week, our volunteer designers donate some of their time and design a brand new custom shirt for a small business that has been impacted by the COVID-19 pandemic.</p>
             </div>
             <img data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content-img--full" src={buy1} alt="shirt design" />
           </li>
@@ -81,10 +81,12 @@ const IndexPage = () => (
       <div className="content">
         <ul className="product-list">
           <li>
-              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt1} alt="Six Feet Apart Shirt" />
-            <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">          
+              <Link to="/six-feet-apart/">
+                <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt1} alt="Six Feet Apart Shirt" />
+              </Link>
+              <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">          
               <h2>SIX FEET APART</h2>
-              <h3>Amount Raised: $150</h3>
+              <h3>Amount Raised: $170</h3>
               <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/six-feet-apart">View on shop</a>
@@ -93,11 +95,12 @@ const IndexPage = () => (
             </div>
           </li>
           <li>
-             <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt2} alt="Love Your Mama Shirt" />
-
+            <Link to="/love-your-mama/">
+              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt2} alt="Love Your Mama Shirt" />
+            </Link>
             <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
               <h2>LOVE YOUR MAMA</h2>
-              <h3>Amount Raised: $32</h3>
+              <h3>Amount Raised: $60.25</h3>
               <p>Mama Kats Restaurant and Pie Shop is a family run restaurant in San Marcos CA. They are known for their friendly atmosphere and fantastic food - breakfast and brunch are big things here! 
 They are one of the many businesses that have been impacted by the COVID-19 Pandemic.</p>
               <div className="link-container">
@@ -113,7 +116,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
       <div className="content content--center">
         <h1>Does your business need help?</h1>
         <p>If you have a business (or know of a business) that is struggling with the lockdowns as a result of the COVID19 Pandemic, we would love to help you. Feel free to drop us a line.</p>
-        <div className="btn btn--lte">Email Us</div>
+        <a href="mailto:team@smashcovid19.com" className="btn btn--lte">Email Us</a>
       </div>
     </section>
   </Layout>

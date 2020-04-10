@@ -16,15 +16,27 @@ const ThirdPage = () => (
   <Layout>
     <div className="content">
       <div>
-        <h1 className="main-title" style={{
+        <h1 className="main-title">LOVE YOUR MAMA</h1>
+        <span style={{
           marginBottom: `1em`,
-        }}>LOVE YOUR MAMA</h1>
+        }}><strong>Date:</strong> March 29, 2020</span>
+        
         
         <article>
-
-          <h2 style={{
-            marginTop: `1em`,
-          }}>About Mama Kats</h2>
+          <div style={{
+              marginBottom: `2em`,
+              marginTop: `1em`,
+            }}
+            className="video-container">
+            <iframe className="video" src="https://www.youtube.com/embed/R_WbpeJM3U4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          </article>
+        <br/>
+        <article>
+          <div className="d-f jc-sb ac-i">
+            <h2>About Mama Kats</h2>
+            <span><strong>Designer:</strong> William dos Santos</span>
+          </div>
           <hr/>
           <img className="push-left" src={mama5} alt="mama kats booth" />
           <p>If you've ever been to North County San Diego, and are craving breakfast on an early morning, chances are you have heard of this little gem of an establishment in San Marcos California called Mama Kats.</p>
@@ -48,7 +60,7 @@ const ThirdPage = () => (
           <p>Ultimately, I'm pretty happy with the design. Even if I'm the only one that buys it, I'm glad I did it.</p>
           <p>With the <a href="https://smashcovid19.threadless.com/designs/love-your-mama">Love Your Mama</a> shirt, you can help save the pies and keep this place going, and the folks that are out of work can get a little relief. Mama Kats has always looked out for the community not just with comforting food, but with it's charitable giving programs. Now it's time for the community to step up and help these fine folks.</p>
           <p>Be a part of something special today. Love your Mama and Save the Pies.</p>
-         <span><strong>Designer:</strong> William dos Santos</span>
+         
         </article>
         <a class="btn mt-1" href="https://smashcovid19.threadless.com/designs/love-your-mama">Buy Love Your Mama...</a>
       </div>

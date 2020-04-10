@@ -40,26 +40,25 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          <div className="content">
+          <div className="content content--fc">
             <div className="footer-container">
-              <ul className="footer--credits">
-               <li>
-                  <span>Designed by </span>
-                  <a href="http://www.willdossantos.com">WDS</a>
-                </li>
-                <li>
-                  © {new Date().getFullYear()}, Built with
-                  {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
-                </li>
-                <li><Link to="/terms/">Terms and Conditions</Link></li>
-              </ul>
+              <div className="footer--credits">
+                <ul>
+                  <li style={{ marginBottom: `10px`}}><Link to="/terms/">Terms and Conditions</Link></li>
+                  <li>
+                    <span>Designed by </span>
+                    <a href="http://www.willdossantos.com">WDS</a>
+                  </li>
+                  
+                </ul>
+                <div>
+                    © {new Date().getFullYear()} Design For Hope Inc. , Built with
+                    {` `}
+                    <a href="https://www.gatsbyjs.org">Gatsby</a>
+                  </div>
+              </div>
+              
               <ul className="nav--social">
-                <li>
-                  <a href="">
-                    <img src={twitter} alt="twitter icon" />
-                  </a>
-                </li>
                 <li>
                   <a href="https://www.instagram.com/smashcovid/">
                     <img src={instagram} alt="instagram icon" />
