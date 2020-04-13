@@ -10,10 +10,11 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 
-import facebook from "../images/social-facebook.svg"
-import twitter from "../images/social-twitter.svg"
-import instagram from "../images/social-instagram.svg"
-import youtube from "../images/social-youtube.svg"
+import facebook from "../images/facebook.svg"
+import twitter from "../images/twitter.svg"
+import instagram from "../images/instagram.svg"
+import youtube from "../images/youtube.svg"
+import Logo from "../images/logo.svg"
 
 import Header from "./header"
 import Helmet from 'react-helmet'
@@ -40,25 +41,37 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          <div className="content content--fc">
-            <div className="footer-container">
-              <div className="footer--credits">
-                <ul>
-                  <li style={{ marginBottom: `10px`}}><Link to="/terms/">Terms and Conditions</Link></li>
-                  <li>
-                    <span>Designed by </span>
-                    <a href="http://www.willdossantos.com">WDS</a>
-                  </li>
-                  
-                </ul>
-                <div>
-                    © {new Date().getFullYear()} Design For Hope Inc. , Built with
-                    {` `}
-                    <a href="https://www.gatsbyjs.org">Gatsby</a>
-                  </div>
-              </div>
-              
-              <ul className="nav--social">
+          <div className="content content--footer">
+            <div className="col">
+              <img src={Logo} alt="Smashcovid19 Logo"/>
+              © {new Date().getFullYear()}
+            </div>
+            <div className="col">
+              <h4>Company</h4>
+              <ul>
+                <li>About us</li>
+                <li>Contact us</li>
+                <li>Helpful Links</li>
+              </ul>
+            </div>
+            <div className="col">
+              <h4>Further Information</h4>
+              <ul>
+                <li>
+                  <Link to="/terms/">Terms and Conditions</Link>
+                </li>
+                <li>Privacy Policy</li>
+              </ul>
+            </div>
+            <div className="col">
+              <h4>Follow Us</h4>
+              <ul className="social-nav">
+                <li>
+                  <img src={twitter} alt="twitter icon" />
+                </li>
+                <li>
+                  <img src={facebook} alt="facebook icon" />
+                </li>
                 <li>
                   <a href="https://www.instagram.com/smashcovid/">
                     <img src={instagram} alt="instagram icon" />

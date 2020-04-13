@@ -22,7 +22,7 @@ const IndexPage = () => (
       <div className="content">
         <div data-sal="slide-up" data-sal-easing="ease" data-sal-duration="1200" className="inner-content">
           <h1 className="hero-title">BUY A SHIRT <strong>SUPPORT A BUSINESS</strong></h1>
-          <p className="hero-tag">All proceeds go to small businesses and the CDC Foundation under the <Link to="https://give4cdcf.org/cdcf2020/smashcovid19">team SmashCOVID19.</Link></p>
+          <p className="hero-tag">All proceeds go to small businesses and the CDC Foundation under the <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team SmashCOVID19.</a></p>
           <a className="btn" href="https://smashcovid19.threadless.com/">Buy & Support</a>    
         </div>
          <img data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="hero-img" src={hero} alt="illustration for small business" />

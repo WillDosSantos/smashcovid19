@@ -3,6 +3,9 @@ module.exports = {
     title: `SmashCovid 19`,
     description: `Changing the economic impact of the COVID 19 Pandemic, one shirt at a time.`,
     author: `Design For Hope Inc.`,
+    url: "http://www.smashcovid19.com",
+    image: "/images/favicon.png",
+    twitterUsername: "@smashcovid19",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,6 +36,12 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/*`],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
