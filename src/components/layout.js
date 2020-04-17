@@ -33,12 +33,12 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{height: `100%`}}>
     <Helmet>
       <link rel="icon" href={favicon} />
     </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
+      <div style={{height: `100%`}}>
         <main>{children}</main>
         <footer>
           <div className="content content--footer">
@@ -49,9 +49,19 @@ const Layout = ({ children }) => {
             <div className="col">
               <h4>Company</h4>
               <ul>
-                <li>About us</li>
-                <li>Contact us</li>
-                <li>Helpful Links</li>
+                <li>
+                <Link to="/about/">
+                  About us
+                </Link>
+                </li>
+                <li>
+                  <a href="mailto:team@smashcovid19.com">Contact us</a>
+                </li>
+                <li>
+                  <Link to="/helpful-links/">
+                    Helpful Links
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="col">
@@ -60,7 +70,11 @@ const Layout = ({ children }) => {
                 <li>
                   <Link to="/terms/">Terms and Conditions</Link>
                 </li>
-                <li>Privacy Policy</li>
+                <li>
+                  <Link to="/privacy/">
+                  Privacy Policy
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="col">
@@ -87,7 +101,7 @@ const Layout = ({ children }) => {
           </div>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

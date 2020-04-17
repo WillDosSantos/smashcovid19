@@ -44,6 +44,12 @@ module.exports = {
         precachePages: [`/*`],
       },
     },
+    {
+    resolve: `gatsby-plugin-google-adsense`,
+    options: {
+      publisherId: `ca-pub-2231841925062982`
+    },
+  },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

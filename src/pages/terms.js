@@ -202,12 +202,7 @@ const Terms = () => (
     <p>In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:</p>
 
     <p>Design For Hope Inc.</p>
-    <p>3584 Windrift Way</p>
-    <p>296</p>
-    <p>Oceanside CA, CA 92056</p>
-    <p>United States</p>
-    <p>Phone: 4428884260</p>
-    <p>smashcovid@gmail.com</p>
+    <p>team@smashcovid19.com</p>
     </div>
     </div>
   </Layout>
