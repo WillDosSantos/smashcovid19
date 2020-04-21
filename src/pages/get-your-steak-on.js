@@ -21,6 +21,16 @@ const FourthPage = () => (
           marginBottom: `1em`,
         }}><strong>Date:</strong> April 14, 2020</span>
         <br/>
+           <article>
+            <div style={{
+                marginBottom: `2em`,
+                marginTop: `1em`,
+              }}
+              className="video-container">
+              <iframe className="video" src="https://www.youtube.com/embed/WKg7uTVZur8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </article>
+        <br/>
         <br/>
         <article>
           <div className="d-f jc-sb ac-i">
