@@ -81,9 +81,11 @@ const Layout = ({ children }) => {
               <h4>Follow Us</h4>
               <ul className="social-nav">
                 <li>
+                <a href="https://twitter.com/Smashcovid19">
                   <img src={twitter} alt="twitter icon" />
                 </li>
                 <li>
+                <a href="https://www.facebook.com/smashcovid.smashcovid.7">
                   <img src={facebook} alt="facebook icon" />
                 </li>
                 <li>
