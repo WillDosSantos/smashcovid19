@@ -157,6 +157,11 @@ section .content--center {
   }
 }
 
+.section--hero {
+  padding-bottom: 6em;
+  border-bottom: 1px solid #6878ff;
+}
+
 .section--dark {
   background-color: #1E202B;
   color: #fff;
@@ -169,6 +174,10 @@ section .content--center {
 .section--color {
   background-color: #6878ff;
   color: #fff;
+}
+
+.section--color__anchor {
+  border-top: 1px solid #fff;
 }
 
 .section--color ul {
@@ -308,8 +317,10 @@ main {
 .product-list li h3 {
   color: #6878ff;
   margin-bottom: 0.5em;
-  margin-top: 0.1em;
-  font-size: 1.5em;
+  margin-top: 0.3em;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
 }
 
 .mt-1 {
@@ -331,6 +342,14 @@ main {
 
 .btn:hover {
   background-color: #4a59d3;
+}
+
+.btn--primary {
+  background-color: #42d124;
+}
+
+.btn--primary:hover {
+  background-color: #3dbc1e;
 }
 
 .btn--lte {
@@ -466,6 +485,61 @@ article p {
 }
 
 .social-nav li img {
-  width: 30px;
+  width: 35px;
   margin-right: 10px;
+}
+
+.pill {
+  background-color: #e53b25;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.3em 0.8em 0.4em 0.7em;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.hope-title {
+  font-size: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 2px;
+  margin-top: -4.5em;
+  background-color: #fff;
+  padding: 1em;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #c9c9c9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  padding: 1.5em;
+  width: 50%;
+  margin: 20px;
+}
+
+.card h4 {
+  text-transform: normal;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-right: 25px;
 }

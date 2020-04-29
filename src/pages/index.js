@@ -22,11 +22,65 @@ const IndexPage = () => (
     <section className="section--hero">
       <div className="content">
         <div data-sal="slide-up" data-sal-easing="ease" data-sal-duration="1200" className="inner-content">
-          <h1 className="hero-title">BUY A SHIRT <strong>SUPPORT A BUSINESS</strong></h1>
+          <h1 className="hero-title">BUY A SHIRT <strong>SUPPORT A BUSINESS</strong></h1>     
           <p className="hero-tag">All proceeds go to small businesses and the CDC Foundation under the <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team SmashCOVID19.</a></p>
-          <a className="btn" href="https://smashcovid19.threadless.com/">Buy & Support</a>    
+          <span style={{ color: `#c9c9c9`, marginTop: `0em`, display: `block`, marginBottom: `1em` }}>With ♥︎ from San Diego CA</span>
+          <a className="btn" href="https://smashcovid19.threadless.com/">Buy & Support</a>
         </div>
          <img data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="hero-img" src={hero} alt="illustration for small business" />
+      </div>
+    </section>
+     <section id="section-3">
+      <div className="content">
+        <h4 data-sal="slide-up" data-sal-easing="ease" data-sal-duration="900" className="hope-title">There is always dry land <strong>after the flood.</strong></h4>
+      </div>
+      <div className="content">
+        <ul className="product-list">
+          <li>
+              <Link to="/six-feet-apart/">
+                <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt1} alt="Six Feet Apart Shirt" />
+              </Link>
+              <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">          
+              <h2>SIX FEET APART</h2>
+              <h3>Amount Raised: $181.60</h3>
+              <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
+              <div className="link-container">
+                <a className="btn" href="https://smashcovid19.threadless.com/designs/six-feet-apart">View on shop</a>
+                <Link to="/six-feet-apart/">Learn More</Link>
+              </div>
+            </div>
+          </li>
+          <li>
+            <Link to="/love-your-mama/">
+              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt2} alt="Love Your Mama Shirt" />
+            </Link>
+            <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
+              <h2>LOVE YOUR MAMA</h2>
+              <h3>Amount Raised: $106.75</h3>
+              <p>Mama Kats Restaurant and Pie Shop is a family run restaurant in San Marcos CA. They are known for their friendly atmosphere and fantastic food - breakfast and brunch are big things here! 
+They are one of the many businesses that have been impacted by the COVID-19 Pandemic.</p>
+              <div className="link-container">
+                <a className="btn" href="https://smashcovid19.threadless.com/designs/love-your-mama">View on shop</a>
+                <Link to="/love-your-mama/">Learn More</Link>
+                </div>
+            </div>
+          </li>
+          <li>
+            <Link to="/get-your-steak-on/">
+              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt3} alt="Get Your Shirt On Shirt" />
+            </Link>
+            <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
+              <h2>GET YOUR STEAK ON</h2>
+              <span className="pill">+ Bonus</span>
+              <h3>Amount Raised: $28.25</h3>
+              <p>Philly Frank's has brought the passion for Philly Cheesesteaks and Hoagies to North County San Diego. This place is truly a gem if there ever was one. Philly Frank's is a family run business, and much of their business depends on the foot traffic of people looking for a great place to dine. They are currently doing orders with Uber Eats and GrubHub. So order now if you are in the area. Get your Steak on!</p>
+              <div className="link-container">
+                <a className="btn" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">View on shop</a>
+                <Link to="/get-your-steak-on/">Learn More</Link>
+                </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
     <section id="section-1" className="section--dark">
@@ -75,59 +129,7 @@ const IndexPage = () => (
         </ul>
       </div>
     </section>
-    <section id="section-3">
-      <div className="content">
-        <h1 data-sal="slide-up" data-sal-easing="ease" data-sal-duration="900" className="hero-title">There is always dry land <strong>after the flood.</strong></h1>
-      </div>
-      <div className="content">
-        <ul className="product-list">
-          <li>
-              <Link to="/six-feet-apart/">
-                <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt1} alt="Six Feet Apart Shirt" />
-              </Link>
-              <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">          
-              <h2>SIX FEET APART</h2>
-              <h3>Amount Raised: $181.60</h3>
-              <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
-              <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/six-feet-apart">View on shop</a>
-                <Link to="/six-feet-apart/">Learn More</Link>
-              </div>
-            </div>
-          </li>
-          <li>
-            <Link to="/love-your-mama/">
-              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt2} alt="Love Your Mama Shirt" />
-            </Link>
-            <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
-              <h2>LOVE YOUR MAMA</h2>
-              <h3>Amount Raised: $75.25</h3>
-              <p>Mama Kats Restaurant and Pie Shop is a family run restaurant in San Marcos CA. They are known for their friendly atmosphere and fantastic food - breakfast and brunch are big things here! 
-They are one of the many businesses that have been impacted by the COVID-19 Pandemic.</p>
-              <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/love-your-mama">View on shop</a>
-                <Link to="/love-your-mama/">Learn More</Link>
-                </div>
-            </div>
-          </li>
-          <li>
-            <Link to="/get-your-steak-on/">
-              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt3} alt="Get Your Shirt On Shirt" />
-            </Link>
-            <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
-              <h2>GET YOUR STEAK ON</h2>
-              <h3>Amount Raised: $18.25</h3>
-              <p>Philly Frank's has brought the passion for Philly Cheesesteaks and Hoagies to North County San Diego. This place is truly a gem if there ever was one. Philly Frank's is a family run business, and much of their business depends on the foot traffic of people looking for a great place to dine. They are currently doing orders with Uber Eats and GrubHub. So order now if you are in the area. Get your Steak on!</p>
-              <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">View on shop</a>
-                <Link to="/get-your-steak-on/">Learn More</Link>
-                </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section className="section--color d-f">
+    <section className="section--color section--color__anchor d-f">
       <div className="content content--center">
         <h4>Want a cool shirt for your business?</h4>
         <p>If you have a business (or know of a business) that is struggling with the lockdowns as a result of the COVID19 Pandemic, we would love to help you. Feel free to drop us a line.</p>

@@ -11,7 +11,14 @@ const SecondPage = () => (
   <Layout>
     <div className="content">
       <div>
-        <h1 className="main-title">SIX FEET APART</h1>
+        <div className="article-header">
+          <div className="article-header--left">
+            <h1>SIX FEET APART</h1>
+            <span><strong>Date:</strong> March 11, 2020</span>
+          </div>
+          <a class="btn btn--primary" href="https://smashcovid19.threadless.com/designs/six-feet-apart">Buy Six Feet Apart...</a>
+        </div>  
+        <br/>  
         <article>
           <h2 style={{
             marginTop: `1em`,

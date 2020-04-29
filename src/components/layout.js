@@ -71,9 +71,9 @@ const Layout = ({ children }) => {
                   <Link to="/terms/">Terms and Conditions</Link>
                 </li>
                 <li>
-                  <Link to="/privacy/">
+                  <a href="https://app.termly.io/document/privacy-policy/702f231a-a7d9-4ab6-b354-f89f37578327">
                   Privacy Policy
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

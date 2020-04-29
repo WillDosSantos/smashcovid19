@@ -7,19 +7,20 @@ import SEO from "../components/seo"
 import philly1 from "../images/philly-franks/franks-1.png"
 import philly2 from "../images/philly-franks/photo-1.png"
 import philly3 from "../images/philly-franks/photo-2.png"
-import mama4 from "../images/mama-kats/mama-4.png"
-import mama5 from "../images/mama-kats/mama-5.png"
+import philly4 from "../images/philly-franks/bonus-shirt.jpg"
 import shirt3 from "../images/shirt-3.png"
-import mama6 from "../images/mama-kats/mama-6.png"
 
 const FourthPage = () => (
   <Layout>
     <div className="content">
       <div>
-        <h1 className="main-title">GET YOUR STEAK ON</h1>
-        <span style={{
-          marginBottom: `1em`,
-        }}><strong>Date:</strong> April 14, 2020</span>
+        <div className="article-header">
+          <div className="article-header--left">
+            <h1>GET YOUR STEAK ON</h1>
+            <span><strong>Date:</strong> April 14, 2020</span>
+          </div>
+          <a class="btn btn--primary" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">Buy Get Your Steak On...</a>
+        </div>
         <br/>
            <article>
             <div style={{
@@ -48,7 +49,7 @@ const FourthPage = () => (
             marginTop: `1em`,
           }}>THE DESIGN</h2>
           <hr/>
-          <img className="push-left" src={shirt3} alt="mama kats shirt" />
+          <img className="push-left" src={shirt3} alt="Get Your Steak on shirt" />
           <p>The folks at Philly Frank's have a special place in my heart and they were one of the first that came to mind when the lockdowns first were put in place.</p>
           <p>While I was working on this design, I was thinking about one of my favorite designers, Aaron Draplin, and a story he told about some friends of his that he helped out.</p>
           <p>To summarize, Aaron Draplin had a friend that was using an image for his companies logo that he ended up getting into hot water for, so Mr. Draplin set aside time and rebranded his site for free.</p>
@@ -58,7 +59,18 @@ const FourthPage = () => (
           <p>Be a part of something special today. Get your steak on!</p>
           <img className="tab-full" src={philly1} alt="Philly Frank's shirt design" />
         </article>
-        <a class="btn mt-1" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">Buy Get Your Steak On...</a>
+        <article>
+          <h2 style={{
+            marginTop: `1em`,
+          }}>BONUS DESIGN</h2>
+          <hr/>
+          <img className="push-left" src={philly4} alt="Philly Franks Bonus shirt - Give me the works" />
+          <p>Normally, it's not common to have two designs for something like this but because I felt a little more inspired after having a cheesesteak sandwich from Philly Franks called "The Works". Well, the "works" put me to work.</p>
+          <p>And I've come to find out that I have a secret passion for designing cheese. Something about the cheeseholes makes me happy. I'm not really sure why and maybe the lockdowns are getting to me.</p>
+          <p>Either way, I dig this shirt and I'm going to order one for myself in red. You can look forward to seeing me wearing it on social media as I destroy yet another cheesesteak sandwich. Summer bod here I come!</p>
+          <p>Side note: I also wanted to include the Liberty Bell because you know...cheesesteaks....philly....yeah you got it ;)</p>
+          <a class="btn btn--primary" href="https://smashcovid19.threadless.com/designs/bonus-philly-franks-give-me-the-works">Buy Give Me The Works...</a>
+          </article>
       </div>
     </div>
   </Layout>

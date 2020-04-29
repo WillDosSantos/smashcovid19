@@ -16,12 +16,14 @@ const ThirdPage = () => (
   <Layout>
     <div className="content">
       <div>
-        <h1 className="main-title">LOVE YOUR MAMA</h1>
-        <span style={{
-          marginBottom: `1em`,
-        }}><strong>Date:</strong> March 29, 2020</span>
-        
-        
+        <div className="article-header">
+          <div className="article-header--left">
+            <h1>LOVE YOUR MAMA</h1>
+            <span><strong>Date:</strong> March 29, 2020</span>
+          </div>
+          <a class="btn btn--primary" href="https://smashcovid19.threadless.com/designs/love-your-mama">Buy Love Your Mama...</a>
+        </div>  
+        <br/>      
         <article>
           <div style={{
               marginBottom: `2em`,
@@ -62,7 +64,6 @@ const ThirdPage = () => (
           <p>Be a part of something special today. Love your Mama and Save the Pies.</p>
          
         </article>
-        <a class="btn mt-1" href="https://smashcovid19.threadless.com/designs/love-your-mama">Buy Love Your Mama...</a>
       </div>
     </div>
   </Layout>
