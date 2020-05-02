@@ -21,7 +21,7 @@ const FifthPage = () => (
             <h1>LOVE TO BLUE MUG</h1>
             <span><strong>Date:</strong> April 28, 2020</span>
           </div>
-          <a class="btn btn--primary" href="https://smashcovid19.threadless.com/designs/love-to-bug-mug">Buy Love to Blue Mug...</a>
+          <a class="btn btn--primary" href="https://smashcovid19.threadless.com/designs/love-to-blue-mug">Buy Love to Blue Mug...</a>
         </div>
         <br/>
         <br/>
@@ -47,7 +47,7 @@ const FifthPage = () => (
           <img className="push-left img-small" src={bluemug3} alt="Blue Mug Crew" />
           <p>Blug Mug Coffe and Tea is owned by Stephanie Shumate. Along with her small crew, Stephanie serves the people of Escondido with great tasting drinks and a friendly atmosphere.</p>
           <p>The people of Blug Mug also support local community charities including and especially local law enforcement.</p>
-          <p>To find out more about Blug Mug, check out their social media on <a href="https://www.facebook.com/BlueMugCoffeeTea/">Facebook</a>, <a href="https://www.yelp.com/biz/blue-mug-coffee-and-tea-escondido-2">Yelp</a></p>
+          <p>To find out more about Blug Mug, check out their social media on <a href="https://www.facebook.com/BlueMugCoffeeTea/">Facebook</a>, <a href="https://www.instagram.com/bluemugcoffeeandtea/">Instagram</a>, and <a href="https://www.yelp.com/biz/blue-mug-coffee-and-tea-escondido-2">Yelp</a></p>
           </article>
         <article>
           <h2 style={{
@@ -60,7 +60,7 @@ const FifthPage = () => (
           <p>Most of my initial designs, at first if I'm honest, I wasn't thrilled with. I began to sketch ideas around how I could incorporate a heart into the design. The first few ideas were more retro looking that I would have liked.</p>
           <p>Then, I tried something with steam. Then a combination of a head on perspective of the steam of the coffee, and a top down view of the mug with the traditional heart foam design that has become a widely known signature of talented baristas.</p>
           <p>I'm very happy with the way the design came out, and I hope you enjoy it as well. It's easy to be afraid, angry, or anxious. But with places like Blue Mug out there, it's one of the many reasons to focus on being positive, promoting good will towards each other, and have a heart.</p>
-          <p>Be sure to check out the design on our <a href="https://smashcovid19.threadless.com/designs/love-to-bug-mug">shop</a>. With your purchase, you are showing the love to Blue Mug.</p>
+          <p>Be sure to check out the design on our <a href="https://smashcovid19.threadless.com/designs/love-to-blue-mug">shop</a>. With your purchase, you are showing the love to Blue Mug.</p>
           <p>Doing something great today, and support this great local business. Show the Love to Blue Mug.</p>
           <img className="tab-full" src={bluemugart} alt="Love to Blue Mug" />
         </article>
