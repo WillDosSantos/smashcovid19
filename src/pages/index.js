@@ -12,6 +12,7 @@ import buy3 from "../images/buy-3.svg"
 import shirt1 from "../images/shirt-1.png"
 import shirt2 from "../images/shirt-2.png"
 import shirt3 from "../images/shirt-3.png"
+import shirt4 from "../images/blue-mug/thumbnail-image.jpg"
 
 import hero from "../images/hero-image.svg"
 
@@ -77,6 +78,20 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">View on shop</a>
                 <Link to="/get-your-steak-on/">Learn More</Link>
+                </div>
+            </div>
+          </li>
+          <li>
+            <Link to="/blue-mug/">
+              <img className="content-img--full" data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" src={shirt4} alt="Get Your Shirt On Shirt" />
+            </Link>
+            <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
+              <h2>HEART OF BLUE MUG</h2>
+              <h3>Amount Raised: $0.00</h3>
+              <p>This time, we are helping bring some hope to a coffee and tea shop in the <em>heart</em> of Escondido California called Blue Mug - Coffee and Tea! These folks have had to adapt to the lockdowns associated with COVID-19, and they still support their community with love and commitment. Check out the Heart of Blue Mug.</p>
+              <div className="link-container">
+                <a className="btn" href="https://smashcovid19.threadless.com/designs/heart-of-blue-mug">View on shop</a>
+                <Link to="/blue-mug/">Learn More</Link>
                 </div>
             </div>
           </li>

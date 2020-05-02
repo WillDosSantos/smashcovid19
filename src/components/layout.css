@@ -81,7 +81,6 @@ a.btn {
   }
 }
 
-
 .video-container {
   position: relative;
   width: 100%;
@@ -163,7 +162,7 @@ section .content--center {
 }
 
 .section--dark {
-  background-color: #1E202B;
+  background-color: #1e202b;
   color: #fff;
 }
 
@@ -294,6 +293,10 @@ main {
   flex-direction: column;
 }
 
+.product-list li img {
+  border-radius: 10px;
+}
+
 .content--shirt {
   margin-top: 1em;
   max-width: 350px;
@@ -323,8 +326,30 @@ main {
   font-family: "Lato", sans-serif;
 }
 
+.p-r {
+  position: relative;
+}
+
+.img-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin: 0 auto;
+  top: -80px;
+  opacity: 0.4;
+}
+
 .mt-1 {
   margin-top: 1em;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.ta-c {
+  text-align: center;
 }
 
 .btn {
@@ -338,6 +363,19 @@ main {
   display: inline-block;
   transition: all linear 0.1s;
   cursor: pointer;
+}
+
+.btn--small {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.btn-group .btn {
+  margin: 0px 5px;
+}
+
+.btn-group .btn:first-child {
+  margin: 0 5px 0 0;
 }
 
 .btn:hover {
@@ -362,13 +400,11 @@ main {
 }
 
 footer {
-  background-color: #1E202B;
+  background-color: #1e202b;
   color: #fff;
   grid-row-start: 2;
   grid-row-end: 3;
 }
-
-
 
 .link-email {
   max-width: 20px;
@@ -414,7 +450,6 @@ article p {
   max-width: 100%;
   margin: 20px 0;
 }
-
 
 .push-left {
   float: left;
