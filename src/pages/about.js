@@ -64,7 +64,7 @@ const About = () => (
         }} className="content fd-c p-r">
           <h4>Want to join us? We'd love to work with you.</h4>
           <p className="ta-c">If you are someone that has design, development, or communication skills and are able to volunteer your time, send us an email and we will get in touch with you. The more people that help out during this time, the better.</p>
-          <a className="btn" href="">Join the effort</a>
+          <a className="btn" href="mailto:team@smashcovid19.com">Join the effort</a>
         </div>
         <img style={{ maxWidth: `600px` }} className="img-background" src={backer} alt="background"/>
       </div>
