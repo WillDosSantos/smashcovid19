@@ -87,7 +87,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
             </Link>
             <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
               <h2>HEART OF BLUE MUG</h2>
-              <h3>Amount Raised: $0.00</h3>
+              <h3>Amount Raised: $270.00</h3>
               <p>This time, we are helping bring some hope to a coffee and tea shop in the <em>heart</em> of Escondido California called Blue Mug - Coffee and Tea! These folks have had to adapt to the lockdowns associated with COVID-19, and they still support their community with love and commitment. Check out the Heart of Blue Mug.</p>
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/love-to-blue-mug">View on shop</a>
