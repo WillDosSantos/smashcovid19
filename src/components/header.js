@@ -56,7 +56,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </li>
         <li>
-          <a href="mailto:team@smashcovid19.com"><img className="link-email" src={Mail} alt="Mail Icon" /></a>
+          <a href="mailto:smashcovid@gmail.com"><img className="link-email" src={Mail} alt="Mail Icon" /></a>
         </li>
       </ul>
     </div>

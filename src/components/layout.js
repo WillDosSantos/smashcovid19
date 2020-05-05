@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
                 </Link>
                 </li>
                 <li>
-                  <a href="mailto:team@smashcovid19.com">Contact us</a>
+                  <a href="mailto:smashcovid@gmail.com">Contact us</a>
                 </li>
                 <li>
                   <Link to="/helpful-links/">

@@ -202,7 +202,7 @@ const Terms = () => (
     <p>In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at:</p>
 
     <p>Design For Hope Inc.</p>
-    <p>team@smashcovid19.com</p>
+    <p>smashcovid@gmail.com</p>
     </div>
     </div>
   </Layout>

@@ -172,10 +172,9 @@ const Privacy = () => (
 
     11. HOW CAN YOU CONTACT US ABOUT THIS POLICY ?
 
-      If you have questions or comments about this policy, you may email us at team @smashcovid19.com or by post to :
+      If you have questions or comments about this policy, you may email us at smashcovid@gmail.com or by post to :
 
-      team@smashcovid19.com
-
+      smashcovid@gmail.com
 
     HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU ?
 
