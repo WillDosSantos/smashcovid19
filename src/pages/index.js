@@ -148,7 +148,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
       <div className="content content--center">
         <h4>Want a cool shirt for your business?</h4>
         <p>If you have a business (or know of a business) that is struggling with the lockdowns as a result of the COVID19 Pandemic, we would love to help you. Feel free to drop us a line.</p>
-        <a href="mailto:team@smashcovid19.com" className="btn btn--lte">Email Us</a>
+        <a href="mailto:smashcovid@gmail.com" className="btn btn--lte">Email Us</a>
       </div>
     </section>
   </Layout>
