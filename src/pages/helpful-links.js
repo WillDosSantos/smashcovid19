@@ -20,7 +20,7 @@ const HelpfulLinks = () => (
         }}>
           The Good Stuff
         </h1>
-        <p>We've got some links that are dedicated to giving you a little boost of confidence during this season. We even have a resume template and cover letter for you to download and use if you are needing it for your next interview.</p>
+        <p>We've got some links that are dedicated to giving you a little boost of confidence during this season.</p>
       
         <h4 style={{paddingTop: `3em`}}>News and Data</h4>
         <hr/>
