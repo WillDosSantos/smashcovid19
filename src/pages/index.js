@@ -135,7 +135,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
           <li>
             <div data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900">
               <h4>Step 3</h4>
-              <p>Viewers can purchase the shirt of their choosing. 100% of the designer earnings goes towards the small business to help their employees and their families during this time. <strong>Smashcovid19.com and Design For Hope Inc. take zero commission, fees, or earnings from the resulted sales.</strong></p>
+              <p>Viewers can purchase the shirt of their choosing. After Threadless takes their cut, 100% of the designer earnings goes towards the small business to help their employees and their families during this time. <strong>Smashcovid19.com and Design For Hope Inc. take zero commission, fees, or earnings from the resulted sales.</strong></p>
               <a className="mt-1 btn btn--lte" href="https://smashcovid19.threadless.com/">Take me to the shop</a>
               </div>
             <img data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content-img--full" src={buy3} alt="money goes to small business" />
