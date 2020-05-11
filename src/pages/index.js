@@ -105,7 +105,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
         <h4>Our Mission</h4>
         <p>On March 11th 2020, the World Health Organization announced the pandemic of COVID-19. The virus has impacted the lives of us all in some way, and some of us more than others.</p>
         <p>This site is dedicated to helping those that have been more directly impacted, on the medical front lines and in the economy with small businesses.</p>
-        <p>We are dedicated to making one shirt per week, and taking all the earnings from the sales, and donating them to the CDC Foundation and the small businesses that are having to quickly adjust as a result of this time.</p>
+        <p>We are dedicated to making one shirt per week, and taking all the designer earnings from the sales, and donating them to the CDC Foundation and the small businesses that are having to quickly adjust as a result of this time.</p>
       </div>
       </div>
     </section>
