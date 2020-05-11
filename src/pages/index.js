@@ -24,7 +24,7 @@ const IndexPage = () => (
       <div className="content">
         <div data-sal="slide-up" data-sal-easing="ease" data-sal-duration="1200" className="inner-content">
           <h1 className="hero-title">BUY A SHIRT <strong>SUPPORT A BUSINESS</strong></h1>     
-          <p className="hero-tag">All proceeds go to small businesses and the CDC Foundation under the <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team SmashCOVID19.</a></p>
+          <p className="hero-tag">All designer earnings go to small businesses and the CDC Foundation under the <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team SmashCOVID19.</a></p>
           <span style={{ color: `#c9c9c9`, marginTop: `0em`, display: `block`, marginBottom: `1em` }}>With ♥︎ from San Diego CA</span>
           <a className="btn" href="https://smashcovid19.threadless.com/">Buy & Support</a>
         </div>
