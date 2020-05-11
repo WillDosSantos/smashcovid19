@@ -44,7 +44,7 @@ const IndexPage = () => (
               <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">          
               <h2>SIX FEET APART</h2>
               <h3>Amount Raised: $190.60</h3>
-              <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
+              <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All designer earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/six-feet-apart">View on shop</a>
                 <Link to="/six-feet-apart/">Learn More</Link>
