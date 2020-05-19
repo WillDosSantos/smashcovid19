@@ -32,9 +32,10 @@ const IndexPage = () => (
       </div>
     </section>
      <section id="section-3">
-      <div className="content">
+      <div className="content fd-c">
         <h4 data-sal="slide-up" data-sal-easing="ease" data-sal-duration="900" className="hope-title">There is always dry land <strong>after the flood.</strong></h4>
-      </div>
+        <p data-sal="slide-up" data-sal-easing="ease" data-sal-duration="900" className="ta-c notification">Smashcovid19 (including all members and volunteers) does not make any money from resulted sales, or have any partnership with any third party on-demand printers we may use. Please read our <Link to="/faq">FAQ</Link> for more details.</p>
+        </div>
       <div className="content">
         <ul className="product-list">
           <li>

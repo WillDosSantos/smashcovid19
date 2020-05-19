@@ -24,6 +24,11 @@ h3 {
   font-family: "Anton", sans-serif;
 }
 
+h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 h1 {
   font-size: 3em;
   text-transform: uppercase;
@@ -195,6 +200,14 @@ section .content--center {
   flex-direction: column-reverse;
 }
 
+section.section--color--faq ul li p {
+  max-width: 100%;
+}
+
+.section--faq ul li {
+  margin-bottom: 4em;
+}
+
 @media screen and (min-width: 750px) {
   .section--color ul li {
     flex-direction: row;
@@ -350,6 +363,24 @@ main {
 
 .ta-c {
   text-align: center;
+}
+
+.notification {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #656565;
+}
+
+.notification--dark {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.faq-list p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.faq-list--lte p {
+  color: #000;
 }
 
 .btn {

@@ -48,6 +48,7 @@ const Header = ({ siteTitle }) => (
             How it works
           </Link>
         </li>
+   
         <li>
           <Link
             to="/#section-3"
@@ -55,6 +56,13 @@ const Header = ({ siteTitle }) => (
             View the designs
           </Link>
         </li>
+        <li>
+        <Link
+          to="/faq"
+        >
+          FAQ
+        </Link>
+      </li>
         <li>
           <a href="mailto:smashcovid@gmail.com"><img className="link-email" src={Mail} alt="Mail Icon" /></a>
         </li>
