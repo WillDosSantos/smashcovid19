@@ -44,7 +44,7 @@ const IndexPage = () => (
               </Link>
               <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">          
               <h2>SIX FEET APART</h2>
-            
+              <h3>CDC Foundation</h3>
               <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All designer earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/six-feet-apart">View on shop</a>
@@ -58,7 +58,7 @@ const IndexPage = () => (
             </Link>
             <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
               <h2>LOVE YOUR MAMA</h2>
-              
+              <h3>Mama Kats Restaurant and Pie Shop</h3>
               <p>Mama Kats Restaurant and Pie Shop is a family run restaurant in San Marcos CA. They are known for their friendly atmosphere and fantastic food - breakfast and brunch are big things here! 
 They are one of the many businesses that have been impacted by the COVID-19 Pandemic.</p>
               <div className="link-container">
@@ -73,8 +73,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
             </Link>
             <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
               <h2>GET YOUR STEAK ON</h2>
-              <span className="pill">+ Bonus</span>
-        
+              <h3>Philly Frank's Cheesesteaks and Hoagies</h3>
               <p>Philly Frank's has brought the passion for Philly Cheesesteaks and Hoagies to North County San Diego. This place is truly a gem if there ever was one. Philly Frank's is a family run business, and much of their business depends on the foot traffic of people looking for a great place to dine. They are currently doing orders with Uber Eats and GrubHub. So order now if you are in the area. Get your Steak on!</p>
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">View on shop</a>
@@ -88,7 +87,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
             </Link>
             <div data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content--shirt">
               <h2>LOVE TO BLUE MUG</h2>
-           
+              <h3>Blue Mug Coffee and Tea</h3>
               <p>This time, we are helping bring some hope to a coffee and tea shop in the <em>heart</em> of Escondido California called Blue Mug - Coffee and Tea! These folks have had to adapt to the lockdowns associated with COVID-19, and they still support their community with love and commitment. Check out the Heart of Blue Mug.</p>
               <div className="link-container">
                 <a className="btn" href="https://smashcovid19.threadless.com/designs/love-to-blue-mug">View on shop</a>
