@@ -24,9 +24,9 @@ const IndexPage = () => (
       <div className="content">
         <div data-sal="slide-up" data-sal-easing="ease" data-sal-duration="1200" className="inner-content">
           <h1 className="hero-title">BUY A SHIRT <strong>SUPPORT A BUSINESS</strong></h1>     
-          <p className="hero-tag">All designer earnings go to small businesses and the CDC Foundation under the <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team SmashCOVID19.</a></p>
+          <p className="hero-tag">We are no longer accepting orders. We appreciate everyone who has contributed to helping to keep small businesses alive.</p>
           <span style={{ color: `#c9c9c9`, marginTop: `0em`, display: `block`, marginBottom: `1em` }}>With ♥︎ from San Diego CA</span>
-          <a className="btn" href="https://smashcovid19.threadless.com/">Buy & Support</a>
+          
         </div>
          <img data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="hero-img" src={hero} alt="illustration for small business" />
       </div>
@@ -47,7 +47,7 @@ const IndexPage = () => (
               <h3>CDC Foundation</h3>
               <p>Even though we are phyiscally separate, we are not emotionally or spiritually. We can still be there for eachother. All designer earnings from this design goes towards the CDC Foundation. Check out our <a href="https://give4cdcf.org/cdcf2020/smashcovid19">team page.</a></p>
               <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/six-feet-apart">View on shop</a>
+                <a className="btn">SOLD OUT</a>
                 <Link to="/six-feet-apart/">Learn More</Link>
               </div>
             </div>
@@ -62,7 +62,7 @@ const IndexPage = () => (
               <p>Mama Kats Restaurant and Pie Shop is a family run restaurant in San Marcos CA. They are known for their friendly atmosphere and fantastic food - breakfast and brunch are big things here! 
 They are one of the many businesses that have been impacted by the COVID-19 Pandemic.</p>
               <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/love-your-mama">View on shop</a>
+                <a className="btn">SOLD OUT</a>
                 <Link to="/love-your-mama/">Learn More</Link>
                 </div>
             </div>
@@ -76,7 +76,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
               <h3>Philly Frank's Cheesesteaks and Hoagies</h3>
               <p>Philly Frank's has brought the passion for Philly Cheesesteaks and Hoagies to North County San Diego. This place is truly a gem if there ever was one. Philly Frank's is a family run business, and much of their business depends on the foot traffic of people looking for a great place to dine. They are currently doing orders with Uber Eats and GrubHub. So order now if you are in the area. Get your Steak on!</p>
               <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/get-your-steak-on">View on shop</a>
+                <a className="btn">SOLD OUT</a>
                 <Link to="/get-your-steak-on/">Learn More</Link>
                 </div>
             </div>
@@ -90,7 +90,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
               <h3>Blue Mug Coffee and Tea</h3>
               <p>This time, we are helping bring some hope to a coffee and tea shop in the <em>heart</em> of Escondido California called Blue Mug - Coffee and Tea! These folks have had to adapt to the lockdowns associated with COVID-19, and they still support their community with love and commitment. Check out the Heart of Blue Mug.</p>
               <div className="link-container">
-                <a className="btn" href="https://smashcovid19.threadless.com/designs/love-to-blue-mug">View on shop</a>
+                <a className="btn">SOLD OUT</a>
                 <Link to="/blue-mug/">Learn More</Link>
                 </div>
             </div>
@@ -136,7 +136,7 @@ They are one of the many businesses that have been impacted by the COVID-19 Pand
             <div data-sal="slide-right" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900">
               <h4>Step 3</h4>
               <p>Viewers can purchase the shirt of their choosing. After Threadless takes their cut, 100% of the designer earnings goes towards the small business to help their employees and their families during this time. <strong>Smashcovid19.com and Design For Hope Inc. take zero commission, fees, or earnings from the resulted sales.</strong></p>
-              <a className="mt-1 btn btn--lte" href="https://smashcovid19.threadless.com/">Take me to the shop</a>
+             
               </div>
             <img data-sal="slide-left" data-sal-delay="100" data-sal-easing="ease" data-sal-duration="900" className="content-img--full" src={buy3} alt="money goes to small business" />
           </li>
